@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjx.dao.Student01Dao">
+
+    <select id="selectStudent01" resultType="com.hjx.domain.Student01">
+        select id,name,email,age from student01 order by id
+    </select>
+</mapper>
